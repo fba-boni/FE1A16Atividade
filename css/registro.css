@@ -1,0 +1,50 @@
+main.conteudo {
+    margin-top: 2px;
+    width: 100vw;
+    height: 600px;
+    justify-content: space-around;
+}
+main.conteudo .formulario {
+    height: 70%;
+}
+main.conteudo .formulario .inputs {
+    height: 100%;
+}
+main.conteudo .formulario .inputs select {
+    height: 60px;
+    padding-left: 20px;
+}
+main.conteudo h3 {
+    text-align: center;
+}
+.botoes {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.botoes button {
+    width: 50%;
+    border-radius: 23px;
+    margin-left: 10px;
+    border: none;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'karla', sans-serif;
+    font-size: 1.3em;
+    padding: 15px;
+    
+}
+.botoes .delete {
+    background-color: #888;
+    color: #fff;
+}
+footer {
+    margin-top: 20px;
+}
+@media (max-width: 800px){
+    main.conteudo h1 {
+        margin-left: 350px;
+    }
+}

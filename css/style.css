@@ -1,4 +1,5 @@
-*{
+*{  
+    overflow-x: hidden;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     padding: 0;
@@ -26,6 +27,7 @@ header h1{
 
 main{
     display: flex;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     height: 450px;
@@ -33,6 +35,7 @@ main{
 }
 
 main div{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -45,10 +48,11 @@ main input{
     padding: 15px;
 }
 
+
 main h1{
     font-size: 4.5rem;
     text-align: left;
-    margin-right: 250px;
+   
     margin-right: 433px;
 }
 
@@ -64,15 +68,14 @@ input::placeholder{
 }
 
 main button{
-    height: 54px;
     background-color: #1cd1b0;
     border-radius: 23px;
     border: none;
     color: #000000;
     font-weight: 700;
     font-family: 'karla', sans-serif;
-    font-size: 24px;
-    line-height: 44px;
+    font-size: 1.3em;
+    padding: 20px;
     margin-top: 40px;
 }
 
@@ -99,4 +102,12 @@ footer{
     width: 100%;
     height: 50px;
     padding: 15px;
+}
+@media (max-width: 800px){
+    main input {
+        width: 400px;
+    }
+    main h1 {
+        margin-left: 200px;
+    }
 }
